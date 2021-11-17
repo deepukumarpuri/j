@@ -8,8 +8,8 @@ app.config['JSON_AS_ASCII'] = False
 
 @app.route('/')
 def openedLink():
-    result = {"author": "pka5667", "author_url": "https://github.com/pka5667",
-              "try": "/hindiJokes after the url to get a random joke and /hindiJokes/word to get the joke containing given word"}
+    result = {"OWNER": "https://t.me/DKBOTZHELP",
+              "try": "/hindiJokes After the url to get a random joke and /hindiJokes/word to get the joke containing given word"}
     return result
 
 
