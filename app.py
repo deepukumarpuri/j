@@ -9,7 +9,7 @@ app.config['JSON_AS_ASCII'] = False
 @app.route('/')
 def openedLink():
     result = {"OWNER": "https://t.me/DKBOTZHELP",
-              "try": "/hindiJokes After the url to get a random joke and /hindiJokes/word to get the joke containing given word"}
+              "try": "/hindiJokes After The Url To Get A Random Joke And /hindiJokes/word To Get the joke containing given word"}
     return result
 
 
