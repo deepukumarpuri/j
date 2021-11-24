@@ -40,7 +40,7 @@ def tellJokeRandom():
     while showJoke == "":
         showJoke = random.choice(jokes)
     result = {
-        "joke": showJoke
+        "jokes": showJoke
     }
     return '<html><head></head><body>' + showJoke + '</body></html>'
 
