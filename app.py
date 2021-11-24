@@ -41,7 +41,7 @@ def tellJokeRandom():
         showJoke = random.choice(jokes)
     result = {
         "jokes": showJoke
-        "demo_words": "you can try hindi words like मेरे, उनकी"
+        "demo_words": you can try hindi words like मेरे, उनकी
     }
     return '<html><head></head><body>' + showJoke + '</body></html>'
 
