@@ -38,9 +38,10 @@ def tellJokeRandom():
     jokes = open('hindiJokes.txt', encoding='utf-8').read().splitlines()
     showJoke = random.choice(jokes)
     while showJoke == "":
-        showJoke = random.choice(jokes)
+        showJoke = random.choice(jokes.)
     result = {
         "jokes": showJoke
+        "demo_words": "you can try hindi words like मेरे, उनकी"
     }
     return '<html><head></head><body>' + showJoke + '</body></html>'
 
